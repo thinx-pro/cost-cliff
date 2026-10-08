@@ -1,0 +1,31 @@
+{
+  "name": "cost-cliff",
+  "version": "0.1.0",
+  "description": "Replay your Claude Code / Codex sessions on other models' price tables, including the 100K / 272K prompt-length cliffs.",
+  "type": "module",
+  "bin": {
+    "cost-cliff": "bin/cost-cliff.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "prices.json"
+  ],
+  "scripts": {
+    "test": "node --test test/cost-cliff.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "llm-cost",
+    "token-usage",
+    "pricing",
+    "haiku",
+    "gpt-6",
+    "finops"
+  ],
+  "license": "MIT"
+}
