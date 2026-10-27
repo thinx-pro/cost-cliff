@@ -2,6 +2,9 @@
 
 **Would the cheap model really have been cheaper?** cost-cliff replays your own Claude Code and Codex sessions against other models' price tables. It includes the prompt-length tiers that list prices hide: the Haiku 5.5 line at 100K tokens and the GPT-6 line at 272K.
 
+<!-- agent-preflight -->
+> **Also a Claude Code skill.** `cost-cliff` is part of [agent-preflight](https://github.com/thinx-pro/agent-preflight), 16 offline checks for coding agents: `/plugin marketplace add thinx-pro/agent-preflight` then `/plugin install cost-cliff@agent-preflight`, and ask Claude in plain words.
+
 ![node >=18](https://img.shields.io/badge/node-%3E%3D18-3f8f5a) ![zero dependencies](https://img.shields.io/badge/dependencies-0-3f8f5a) ![license MIT](https://img.shields.io/badge/license-MIT-blue) ![prices 2026-10-08](https://img.shields.io/badge/prices-2026--10--08-d39b22)
 
 ![cost-cliff HTML report on the bundled demo sessions](assets/report.png)
