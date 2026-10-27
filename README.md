@@ -105,9 +105,3 @@ All prices are in [`prices.json`](prices.json), with source links and a retrieva
 ## License
 
 MIT. Prices belong to their vendors and are reproduced for comparison. Check the linked pages before you make budget decisions.
-
----
-
-### 中文说明
-
-**cost-cliff**：用你自己的 Claude Code / Codex 会话日志回放估价，回答「换成便宜模型到底省不省」。核心是「分档断崖」：Haiku 5.5 的 prompt 一旦超过 10 万 token，整次请求按 5 倍价计费；GPT-6 的分档线是 27.2 万。Agent 会话每轮都会重发整段上下文，大部分请求都落在断崖之上。`npx github:thinx-pro/cost-cliff` 一行运行，零依赖，只读本地文件，不联网。价格来自两家官方定价页（2026-10-08），跨厂商的分词器换算没有官方系数，默认按 1:1 估算，可用 `--openai-ratio` 调整。
